@@ -1,3 +1,7 @@
+"""
+User inputs DNA sequence and has the lenght, C, G, A and T conent percentage returned
+"""
+
 sequence = input("Enter your sequence here: ") #User input
 
 caps = sequence.upper() #uppercase sequence - FASTA files could potentially be mixed upper and lower.
